@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World of Ebensong</title>
+    <style>
+        body{
+            margin: 0;
+            font-family:fantasy;
+            background-color: #b3f1f3;
+            background-image: url(https://image.cdn2.seaart.ai/2023-11-08/22105725325021189/2a9131df6446a8330892041c1b2005ebb859be4f_high.webp);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        nav, main > section{
+            overflow: auto;
+        }
+
+        main > section{
+            min-height: 100vh;
+        }
+
+        #nav{
+            background-color: azure;
+            justify-content: space-between;
+			align-items: baseline;
+			padding: 1em;
+			background-color: #b3f1f3;
+			color: #7e6464;
+			display: flex;
+        }
+
+        nav h1, ul{
+			margin: 0
+		}
+
+		nav a {
+			text-decoration: none;
+			color: #0c5d0a;
+		}
+
+		nav ul {
+			display: flex;
+			list-style: none;
+		}
+
+        nav ul a{
+            padding: 1em;
+            color:forestgreen;
+        }
+
+        nav ul a:hover{
+            color:darkblue;
+        }
+
+        #map{
+            background-color: rgba(205, 134, 63, 0.467);
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #map > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10em;
+            border: 2px solid black;
+        }
+
+        #Phunol{
+            background-color: rgba(128, 255, 0, 0.467);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #Phunol > div{
+            background-color:rgb(217, 186, 139);
+            overflow:auto;
+            width:75%;
+            padding:1em;
+            max-width: 700px;
+        }
+
+        #Miloren{
+            background-color:rgba(0, 139, 139, 0.467);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #Miloren > div{
+            background-color:rgb(217, 186, 139);
+            overflow: auto;
+            width: 75%;
+            padding: 1em;
+            max-width: 700px;
+        }
+
+        #Khali{
+            background-color: rgba(255, 140, 0, 0.467);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #Khali > div{
+            background-color:rgb(217, 186, 139);
+            overflow: auto;
+            width: 75%;
+            padding: 1em;
+            max-width: 700px;
+        }
+
+        #Altos{
+            background-color:rgba(143, 188, 143, 0.467);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #Altos > div{
+            background-color:rgb(217, 186, 139);
+            overflow:auto;
+            width:75%;
+            padding:1em;
+            max-width: 700px;
+        }
+
+        .guild-image {
+            align-items: center;
+            width: 150px;
+            height: 150px;
+            object-fit: cover; /* Ensures the aspect ratio is maintained */
+        }
+
+        article ul{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 0;
+            list-style: none;
+        }
+
+        article ul li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1em;
+            width: 150px;
+            border: black solid 1px;
+            border-radius: 0.5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <nav id="nav">
+            <h1><a href="#">The World of Ebensong</a></h1>
+            <ul>
+                <li><a href="#Miloren">Miloren</a></li>
+                <li><a href="#Khali">Kha'li</a></li>
+                <li><a href="#Altos">Altos</a></li>
+            </ul>
+        </nav>
+<section id="map">
+   <div> <img src="https://imgs.search.brave.com/2rHiFvWwersqkIIRtZpGQFU32lH3GKfn4OBPhJijytY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/LWNkbi5yZWVkc3ku/Y29tL2RpcmVjdG9y/aWVzL2FkbWluL2F0/dGFjaG1lbnRzL2xh/cmdlX2ZhbnRhc3kt/bWFwLWdlbmVyYXRv/ci13b25kZXJkcmFm/dC1lNzQyMTIuanBn" alt="Map of Phunol" id="mop"></div>
+</section>
+<section id="Phunol">
+    <div>
+    <h2><strong>Phunol</strong></h2>
+    <p>
+        Phunol is a world quite literally smashed together,
+        Three major powers rule the three vastly different territories,
+        <strong>Altos</strong> a mountainous river lands, <strong>Kha’li</strong> a vast unforgiving desert, 
+        and <strong>Miloren</strong> an enchanted forest of Redwoods. 
+        Three different ecologies seemingly from different worlds entirely;
+         yes some truly bizarre and potent magic holds the continent of 
+         Phunol together but in return curses the land entirely. 
+         Monster roamed free and uninhibited on Phunol and for many years the small pockets 
+        for life that sprouted up were uprooted and scattered across the plane. 
+        For civilization to thrive these groups banded together to defend their homes, 
+        and when homes grew into cities these groups became guilds and defenses became hunts.
+         And when that wasn’t enough these groups banded together and created the now 
+         Legendary Guild known as the <strong>Association of Associated Monster Hunters.</strong>
+    </p>
+
+    <p>
+        Now many hundreds of years have passed and more guilds have come along, 
+        guilds have even become strong enough to act as their own neutral world 
+        power creating <strong>the Principalities of Guilds</strong> and all throughout those years the 
+        AAMH has remained a reliable asset to the people of Phunol. 
+        Though these days they have declined in notoriety and public perception,
+         as you can imagine hunting monsters is a dangerous profession and the 
+         AAMH likes to keep their numbers low, as players you have been specially 
+         selected to join the ranks of the <strong>Association of Associated Monster Hunters.</strong>
+    </p>
+    </div>
+ </section>
+
+ <section id="Miloren">
+    <div>
+    <h3>Miloren</h3>
+    <p>
+        Miloren <em>(my.loe.rin) </em> is the country directly to the north of the of both <strong>Kha’li</strong>
+         and <strong>Altos</strong> and is known for its massive forest that stretches end to end of the 
+         Continent of Phunol. Miloren is the headquarters of many guilds but the most 
+         notably of them is the <strong> Association of Associated Monster Hunters </strong>, 
+         one of the first guilds to ever establish itself, it was the establishment of
+          guilds like this that helped turn Miloren and the other countries into the 
+          civilization that they are today.
+     </p>
+
+     <p>
+        There are three major cities in Miloren; Treklude, 
+        the capital and located on the West side of the country, 
+        Breakpoint, the border city to the Far North, and New Lobec City,
+         the Easternmost city the borders then Blighted lands.
+     </p>
+
+     <p>
+        Miloren’s Forest is filled to the brim with monsters of all types 
+        from Beast that lurk in the forest or wander down from the frozen 
+        tundra of the Far North to the undead horrors that seem to spawn 
+        from the Blighted Lands to the East.
+     </p>
+     <h4>Noteable Guilds</h4>
+     <article>
+        <ul>
+            <li>
+                <strong>Association of Associated Monster Hunters:</strong> Monster Hunters 
+                <img src="https://imgs.search.brave.com/DTuZQ1RWbUYXxM_xKCJeNm3LBrMP_UD7mOZ1lWc3zJ8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90b3du/c3F1YXJlLm1lZGlh/L3NpdGUvNDQyL2Zp/bGVzLzIwMTUvMTEv/VmFuLUhlbHNpbmcu/anBnP3c9OTgwJnE9/NzU" alt="Monster Hunters" class="guild-image">
+            </li>
+            <li>
+                <strong>Demon Deletion Division:</strong> Cult prevention
+                <img src="https://imgs.search.brave.com/Y2XuLHORItB1x8NkGOmpS6dpkpkCvSVGmYL_g6bl24g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dGhlY29sbGVjdG9y/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNi9hYmFk/ZG9uLWFwb2xseW9u/LWJpYmxpY2FsLWFu/Z2VsLTEuanBn" alt="Demon Hunters" class="guild-image">
+            </li>
+            <li>
+                <strong>Forestwalkers:</strong> Messengers
+                <img src="https://www.nps.gov/subjects/oceans/images/TRT-Class-of-2011.JPG" alt="Forest rangers" class="guild-image">
+            </li>
+            <li>
+                <strong>Miloren Preservation Society:</strong> Blight Prevention
+                <img src="https://ccrenfaire.com/wp-content/uploads/2019/05/Plague-Doctor.jpg" alt="Blight Prevention" class="guild-image">
+            </li>
+            <li>
+                <strong>Crosspoint Dispatch Group:</strong> Border Patrol for the Far North
+                <img src="https://www.hisstank.com/forum/attachments/g-i-joe-customs-finished-projects/157726d1428445482-custom-stalker-v2-tundra-ranger-plastic-army-72-a-img_0265_zpsq6rwroh9.jpg" alt="Tundra Exploration" class="guild-image">
+            </li>
+        </ul>
+        </article>
+    </div>
+ </section>
+
+ <section id ="Khali">
+    <div>
+    <h3>Kha'li</h3>
+        <p>
+            Kha’li <em>(cah.lee)</em> is the country located on the southwestern coast of the continent of Phunol,
+             life on Kha’li is defended by perseverance for they live in the most inhospitable part of 
+             the continent. It is this way because Kha’li is an enormous desert with very few pockets 
+             of civilization on the edges of the country. It is because of this the government of Kha’li 
+             operates more like a collection of city-states agreeing to work together under a single Grand Poobah.
+        </p>
+
+        <p>
+            Though the desert is vast and oppressive, life in Kha'li is not without its riches.
+             The cities of Sahee and C’himermond produce resources like Glint Stones and Myr Stones 
+             which are desired all across Phunol. There are Ruins scattered throughout the desert 
+             and with them a vast amount of Relics can be found. The capital, Prism, has endless 
+             stretching tunnels that lead to different parts of Kha’li and sometimes serves as a 
+             convenient way around for some of the rich and important. 
+        </p>
+
+        <p>
+            Kha’li does however suffer from a strange weather condition called Snarls, 
+            a magical storm that can appear anywhere in the country and take the form of 
+            any type of storm from a lightning storm to a dust storm, getting sucked into 
+            a Snarl may kill you but has a higher chance of stranding you on some other part 
+            of Phunol or even being lost forever.
+        </p>
+
+        <h4>Noteable Guilds</h4>
+        <article>
+        <ul>
+            <li>
+                <strong>Tunnelers:</strong> Tunnel Explores/Enforcers 
+                <img src="https://assets1.ignimgs.com/2020/09/14/spelunky2-blogroll-1-1600053728513_160w.jpg?width=1280" alt="Tunnrl Explores/Enforcers" class="guild-image">
+            </li>
+            <li>
+                <strong>Stormwatch:</strong> Displaced Persons Retrieval
+                <img src="https://www.elephango.com/images/RCLG/man-twister-13300.jpg" alt="Displaced Persons Retrieval" class="guild-image">
+            </li>
+            <li>
+                <strong>Skimmers: </strong> Public Transportation/ Messengers
+                <img src="https://swrpggm.com/wp-content/uploads/2022/01/Swoop-BIker-Gang_FEpng.png" alt="Public Transportation/Messengers" class="guild-image">
+            </li>
+            <li>
+                <strong>Charters: </strong> Explores of Hidden Places
+                <img src="https://blog.geographydirections.com/wp-content/uploads/2013/04/world-map.jpg" alt="Explores of Hidfden Places" class="guild-image">
+            </li>
+            <li>
+                <strong>Active Advancements: </strong> Research of Relics/ Development of Voodootronics
+                <img src="https://humanprogress.org/wp-content/uploads/2019/12/20-tech-advances1.jpg" alt="Research of Relics" class="guild-image">
+            </li>
+        </ul>
+        </article>
+    </div>
+ </section>
+
+ <section id="Altos">
+    <div>
+        <h3>Altos</h3>
+        <p>
+            Altos <em>(al.toes)</em> is the country located on the east side of the continent and borders the other two,
+             Altos is very inspired by the Greek and Mediterranean areas. It is known for its many mountain ranges,
+            swooping valleys, and multiple riverlands and Deltas. Altos is also the name of the capital city of Altos.
+            They were once known for their populations of Dragons but since most dragons are extinct most that
+            remain are long distant descendants with little relation to their ancestors such as Kobolds, Drakes,
+             and Dreks the intelligent Dragon humanoid race on the continent.
+        </p>
+
+        <p>
+            Most people that live in Altos either live on the water or in the many mountain ranges. 
+            It is a mix of seafaring society and sherpas that help groups up the mountains. 
+            Some cities like Spreet even have gondola systems to take them up to higher planes, 
+            and cities like Menace and Splarta are full floating cities with canals and waterways. 
+            Voltaria is one of the oldest territories in Phunol and holds knowledge from centuries 
+            pass as well as the largest school for History and Magic called <strong>Zynthos’ College for Magical Knowledge.</strong> 
+        </p>
+
+        <p>
+            The Country is governed by a council of elected individuals that reside in the capital city Altos,
+            they typically have more of a vested interest with trade from the other countries especially Kha’li
+            for their Voodootronics and Relics, while having a resentment of Miloren because they only border 
+            they share with the country is covered by The Blighted Lands which bleeds over to Altos and becomes their problem.
+        </p>
+
+        <h4>Noteable Guilds</h4>
+        <article>
+        <ul>
+            <li>
+                <strong>Beast Tamers:</strong> Beast Tamers
+                <img src="https://i.pinimg.com/originals/a4/02/16/a40216c4626716c0ff395e23b9559a09.jpg" alt="Beast Tamers" class="guild-image">
+            </li>
+            <li>
+                <strong>The Unalivers of the Undead:</strong> Specialized in Killing Undead
+                <img src="https://nypost.com/wp-content/uploads/sites/2/2023/03/zombie-apocalypse-walking-dead-1-copy.jpg?quality=75&strip=all&w=1200" alt="Specialized Zombie Killing" class="guild-image">
+            </li>
+            <li>
+                <strong>Voltix’s Sons: </strong> Long Abandoned guild of Heroes
+                <img src="https://sjc1.vultrobjects.com/cucdn/gallery-07/art/dff-heroes-cg.jpg" alt="Long Abandoned Guild of Heroes" class="guild-image">
+            </li>
+            <li>
+                <strong>Marna’s Flight: </strong> Couriers, Passage, and Travel
+                <img src="https://s3.amazonaws.com/files.thegamecrafter.com/c02e573f7c0e909770c436c17caca7eb2b9a427b" alt="Couriers, Passage, and Travel" class="guild-image">
+            </li>
+            <li>
+                <strong>Namor’s Sect: </strong> Naval Escort
+                <img src="https://img.wonderhowto.com/img/78/17/63483609008640/0/why-disneys-20-000-leagues-under-sea-is-not-steampunk.w1456.jpg" alt="Naval Escort" class="guild-image">
+            </li>
+        </ul>
+        </article>
+    </div>
+ </section>
+</main>
+</body>
+</html>
